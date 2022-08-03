@@ -6,10 +6,8 @@ on:
       - 'main'
   pull_request:
     branches:
-      - 'main'
 jobs:
   test:
-    name: Testing CodeEdit
     runs-on: [self-hosted, macOS]
     steps:
       - name: Checkout repository
